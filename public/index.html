@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="picoDiarioApp">
+  <head>
+    <title>Diario Pico</title>
+    <!-- CSS -->
+    <link rel='stylesheet' href='stylesheets/style.css' />
+    <!-- JS -->
+    <!-- ANGULAR -->
+    <script src="javascripts/angular/angular.js"></script>
+    <script src="javascripts/angular-route.min.js"></script>
+    <!-- APP -->
+    <script src="config/appConfig.js"></script>
+    <script src="config/envoirments.js"></script>
+    <script src="config/router.js"></script>
+  </head>
+  <body>
+    <h1>Diario Pico</h1>
+     <!-- MAIN CONTENT AND INJECTED VIEWS -->
+        <div id="main">
+              <ng-view></ng-view>
+        </div>
+    <!-- CONTROLLERS -->
+    <script src="controllers/noticiaController.js"></script>
+  </body>
+</html>
